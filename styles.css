@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-div {
+    background-color: rgb(180, 176, 176);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;  
+    width: 40vw;
+    height: 60vh;
+    border-radius: 10px
+}
+.main-div h1 {
+    padding-top: 15px;
+    
+}
+
+.result {
+    background-color: lightgray;
+    width: 70%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    
+    
+}
+.result h1 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.player {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.computer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.imgs {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30%;
+}
+
+#pedra, #papel, #tesoura {
+    width: 100px;
+}
+#pedra:hover, #papel:hover, #tesoura:hover{
+    cursor: pointer;
+} 
+
+
+.again {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.again button {
+    
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(71, 71, 71);
+    color: #eee;
+}
+.again button:hover {
+    cursor: pointer;
+    padding: 10px;
+
+}
